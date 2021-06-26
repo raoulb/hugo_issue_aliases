@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+DefaultContentLanguage = "de"
+DefaultContentLanguageInSubdir = true
+
+[Languages]
+[Languages.de]
+  weight = 1
+  LanguageName = "Deutsch"
+
+[Languages.en]
+  weight = 2
+  LanguageName = "English"
